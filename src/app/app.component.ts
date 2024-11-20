@@ -9,5 +9,11 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Assingn7_2';
+
+   public  BatchName : string   = "Marvellous Infosystems"
+
+  fun(){
+  
+    return this.BatchName
+  }
 }
